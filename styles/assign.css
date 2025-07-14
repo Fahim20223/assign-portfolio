@@ -40,9 +40,9 @@
 
 .section-bg{
     background-image:url(../Assets/Hero-bg.png); 
-    /* background-repeat:repeat-x; */
+    
     height: 698px;
-    /* width: 1140px; */
+    
 }
 .batter{
     width: 517px;
@@ -98,7 +98,7 @@
 }
 .divition-item{
     display: flex;
-    /* margin: 0 auto; */
+    
     
 }
 .divishion-tital{
@@ -133,13 +133,13 @@ font-weight:bold ;
     background-color: rgba(78, 71, 255, 0.1);
     padding: 80px;
     border-radius: 25px;
-    /* border:20px solid rgba(78, 71, 255, 0.1) ; */
+    
     
 }
 .division{
     align-items: center;
     justify-content: center;
-    /* margin-left: 50px; */
+    
     margin-bottom: 137px;
 
 }
@@ -147,39 +147,22 @@ font-weight:bold ;
     margin: 35px auto auto;
 }
 .card-item{
-   max-width: 1140px; 
-    /* height: 49px; */
+    max-width: 1140px;  */
+     height: 49px; */
     font-size: 42px;
     font-weight: bold;
     color: #252432;
     font-size: 6em;
-    justify-content: center;
-/* margin: 0 auto; */
-    margin-bottom: 30px;
-}
-.card-area{
-      /* margin: 0 auto;   */
-    /* align-items: center; */
-     /* max-width: 1140px;  */
-     /* justify-content: center;  */
-     max-width: 1140px;
-     
+   margin: 0 auto; */
     
-
 }
 
 
-
-.card{
-    max-width: 1140px;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    /* display:flex; */
-    height: 402px;
-    gap: 50px;
-    /* display: flex; */
+section.card{
+    
     margin-bottom: 170px;
+
+
 }
 .card-tips{
     display: flex;
@@ -194,27 +177,32 @@ font-weight:bold ;
     padding:24px ;
     border: 2px solid #F2EDED;
     border-radius: 14px;
-    /* gap: 24px; */
+     gap: 24px; */
 
+}
+
+.bolding{
+    border-radius:50%;
 }
 .card-confess{
      display: flex; 
     gap: 20px;
-    /* justify-content: space-around; */
-    /* margin: 0 auto; */
+   
+     margin: 0 auto; 
+     justify-content: center;
+     align-items: center;
     
 }
 .banned{
-    /* font-size: 97px; */
+     font-size: 97px; */
     font-weight: bold;
     height: 250px;
     width: 528px;
     color: #000000;
+    font-size: 5em;
 }
 
-.bashed{
-    /* width: 50%; */
-}
+
 .ending-title{
      width: 50%; 
     display:flex;
@@ -224,20 +212,33 @@ font-weight:bold ;
     margin: 0 auto;
     max-width: 1140px;
     height: 650px;
-    ba
+    background-color: #FFFFFF;
+    margin-bottom: 104px;
+    width: 100%;
+    
     
     
 }
- input[type=email], input[type=text], textarea{
+ input[type=email], input[type=text]{
     width: 497px;
     height: 70px;
     /padding: 32px
     gap: 10px;
     border-radius: 10px;
-    background-color: #FFFFFF;
+    border: 2px solid #F2EDED;
     display: block;
     margin-bottom: 20px;
     
+}
+textarea{
+    width: 497px;
+    height: 135px;
+    gap: 10px;
+    padding: 32px;
+    border-radius: 20px;
+    display: block;
+    margin-bottom: 20px;
+    border: 2px solid #F2EDED ;
 }
 .define{
      width: 497px; 
@@ -246,9 +247,55 @@ font-weight:bold ;
     border-radius: 19px;
     background-color: #4E47FF;
     color: #FFFFFF;
-    /* gap: 2px;  */
     font-size: 1.25em;
     border: none;
+    
+}
+
+label{
+    font-size: 1.5em;
+}
+
+.footer-title ul li{
+
+    list-style: none;
+    
+    
+}
+.footer-title ul li a{
+    text-decoration: none;
+    color: #8987A1;
+}
+.footer-title ul{
+    display: flex;
+    gap: 30px;
+    margin: 20px 519px 520px auto;
+}
+.centre{
+
+    color:  #8987A1;
+    margin: 0 auto;
+}
+.centre-point{
+    width: 292px;
+    height: 120px;
+    color: #4E47FF;
+    font-size: 100px;
+    font-weight: bolder;
+
 }
 
 
+footer{
+    align-items: center;
+    justify-content: center;
+    max-width: 1140px;
+    margin: 0 auto;
+    height: 428px;
+    background-color: #FFFFFF;
+}
+
+
+.catalog{
+    cursor: pointer;
+}
